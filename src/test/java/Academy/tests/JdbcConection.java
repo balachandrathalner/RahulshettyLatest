@@ -16,7 +16,6 @@ public class JdbcConection {
 	
 	public  void getMysqlConnection() throws SQLException{
 		
-		//Connection to db
 		
 		String host="localhost";
 		

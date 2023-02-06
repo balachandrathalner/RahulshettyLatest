@@ -4,18 +4,6 @@
   <listeners>
     <listener class-name="Academy.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
-    <classes>
-      <class name="Academy.tests.ErrorValidationsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="launchApplication"/>
-          <include name="loginErrorValidations"/>
-          <include name="productErrorValidation"/>
-        </methods>
-      </class> <!-- Academy.tests.ErrorValidationsTest -->
-    </classes>
-  </test> <!-- Error Validations Test(failed) -->
   <test thread-count="5" parallel="tests" name="SubmitOrder Test(failed)">
     <classes>
       <class name="Academy.tests.StandAloneTest">
@@ -28,4 +16,16 @@
       </class> <!-- Academy.tests.StandAloneTest -->
     </classes>
   </test> <!-- SubmitOrder Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
+    <classes>
+      <class name="Academy.tests.ErrorValidationsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="loginErrorValidations"/>
+          <include name="productErrorValidation"/>
+        </methods>
+      </class> <!-- Academy.tests.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validations Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
